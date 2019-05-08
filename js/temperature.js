@@ -12,15 +12,14 @@ function convert() {
       return document.getElementById("result").value = convertedC + "C";
     }
   }
-  // celcius to rest
   
+  // celcius to rest
   function cToF() {
     var c = document.getElementById("input").value;
     return (c * 9 / 5) + 32;
   }
   
   // fahrenheit to rest
-  
   function fToC() {
     var f = document.getElementById("input").value;
     return (f - 32) * 5 / 9;
