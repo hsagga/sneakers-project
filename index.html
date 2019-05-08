@@ -1,24 +1,26 @@
 <!doctype html>
-
 <html lang="en">
 
 <head>
     <title>Web Page</title>
-    <meta name="author" content="Hummam Sagga">
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="js/authen.js"></script>
 </head>
 
 <body>
     <h1>Main Page</h1>
+    <h2>Please Log In</h2>
     <div>
-        username: <input type="text" id="username">
-        <br>
-        password: <input type="password" id="password">
-        <button type="button" onclick="login()">login</button>
-        <br>
-        <input type="text" id="result">
+        <form id="form_id" method="post">
+            <fieldset>
+                <label for="username">Username</label>
+                <input type="text" name="username" placeholder="username" id="username">
+                <label for="password">Password</label>
+                <input type="password" name="password" placeholder="password" id="password">
+                <input type="button" value="Login" id="submit" onclick="login()">
+            </fieldset>
+        </form>
     </div>
 </body>
 
