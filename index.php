@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Contact</title>
+    <title>Home</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/authen.js"></script>
@@ -14,9 +14,9 @@
     <a href="product.php">Product</a>
     <a href="contact.php">Contact Us</a>
 
-    <h1>Contact Page</h1>
-    <h2>Test</h2>
-    
+    <h1>Main Page</h1>
+    <h2>Please select an option</h2>
+
 </body>
 
 </html>
